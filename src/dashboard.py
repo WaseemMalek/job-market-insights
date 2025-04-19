@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load cleaned data
-df = pd.read_csv("C:/Waseem/job-market-insights/data/adzuna_jobs_clean.csv")
+df = pd.read_csv("src/adzuna_jobs_clean.csv")
 
 st.set_page_config(page_title="Job Market Insights", layout="wide")
 st.title("Job Market Insights Dashboard")
